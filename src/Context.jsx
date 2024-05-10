@@ -22,8 +22,8 @@ export const AppProvider = ({ children }) => {
   return (
     <AppContext.Provider
       value={{
-        isModalOpen,
         isSidebarOpen,
+        isModalOpen,
         openModal,
         openSidebar,
         closeModal,
